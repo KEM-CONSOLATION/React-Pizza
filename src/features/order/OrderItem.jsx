@@ -1,6 +1,6 @@
-/* eslint-disable */
+/*eslint-disable */
 
-import { formatCurrency } from '../../Utilities/helpers';
+import { formatCurrency } from '../../utils/helpers';
 
 function OrderItem({ item, isLoadingIngredients, ingredients }) {
   const { quantity, name, totalPrice } = item;

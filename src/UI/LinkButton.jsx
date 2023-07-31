@@ -1,5 +1,4 @@
 /*eslint-disable */
-
 import { Link, useNavigate } from 'react-router-dom';
 
 function LinkButton({ children, to }) {

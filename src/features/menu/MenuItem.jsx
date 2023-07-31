@@ -1,7 +1,7 @@
 /*eslint-disable */
 
 import Button from '../../ui/Button';
-import { formatCurrency } from '../../Utilities/helpers';
+import { formatCurrency } from '../../utils/helpers';
 
 function MenuItem({ pizza }) {
   const { id, name, unitPrice, ingredients, soldOut, imageUrl } = pizza;

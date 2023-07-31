@@ -1,5 +1,6 @@
 // Test ID: IIDSAT
 /*eslint-disable */
+
 import OrderItem from './OrderItem';
 
 import { useLoaderData } from 'react-router-dom';
@@ -8,7 +9,7 @@ import {
   calcMinutesLeft,
   formatCurrency,
   formatDate,
-} from '../../Utilities/helpers';
+} from '../../utils/helpers';
 
 function Order() {
   const order = useLoaderData();
